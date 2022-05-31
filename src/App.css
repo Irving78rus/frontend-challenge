@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   border: 0;
   box-sizing: border-box;
   text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  Font-style: Regular;
 }
 
 .App {
@@ -30,7 +33,7 @@
   font-size: 14px;
   line-height: 21px;
   line-height: 128%;
-  padding: 23px;
+  padding: 25px;
   color: rgba(240, 248, 255, 0.7);
 }
 
@@ -38,6 +41,9 @@
   background-color: #1e88e5;
   color: rgba(240, 248, 255, 1);
   max-height: 68px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .AllCats-container {
